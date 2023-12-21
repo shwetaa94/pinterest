@@ -7,7 +7,6 @@ const postSchema =  mongoose.Schema({
 
   postText: {
     type : String,
-    required: true,
   },
   image:{
     type : String,
@@ -18,7 +17,7 @@ const postSchema =  mongoose.Schema({
       default: Date.now
     },
     
-    user: {
+  user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User'
     },
