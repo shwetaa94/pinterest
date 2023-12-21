@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(210, 210, 210);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  
+  width: 580px;
+  min-height: 650px;
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  border:1px solid transparent;
+  border-radius: 10%;
+  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+  padding:30px 70px ;
+}
+ 
+.img1{
+  width: 70px;
+  position: relative;
+  top: 10px;
+}
+.header {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 30px;
+ 
+}
+.detail {
+  width: 100%;
+  height: 54px;
+  margin: 8px;
+  padding: 15px;
+  font-size: 22px;
+ 
+  color: gray;
+  border: 2px solid rgb(218, 214, 214);
+  border-radius: 15px;
+}
+.detail:focus {
+  box-shadow: 0px -7px 3px -2px rgba(15, 91, 231, 0.4),
+    0px 7px 3px -2px rgba(15, 91, 231, 0.4),
+    7px 0px 3px -2px rgba(15, 91, 231, 0.4),
+    -7px 0px 3px -2px rgba(15, 91, 231, 0.4);
+  outline: none;
+}
+
+/* a{
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  left: -110px;
+  margin:5px 0;
+
+} */
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border: hidden;
+  border-radius: 20px;
+  font-size: 18px;
+
+  
+}
+
+.int {
+  background-color: #f30d19;
+  margin: 14px 0px;
+  margin-left: 2%;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.int:hover{
+  background-color: #df0812;
+}
+
+.forget{
+  color: rgba(0, 0, 0, 0.762);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:600;
+  margin-left: -54%;
+ 
+}
+p{
+  margin:22px 15px ;
+  opacity: 0.7;
+}
+.registerlink {
+  color: rgba(0, 0, 0, 0.762);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight:600;
+  margin-top:20px ;
+  margin-left: 0;
+  
+}
+.registerlink:hover {
+ color:rgb(71, 19, 71);
+ text-decoration: underline;  
+}
+
+.error{
+  color:red;
+  font-weight: 500;
+}

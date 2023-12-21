@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* { margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffffff;
+	font-family:'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+
+}
+.card-container {
+	background-color: rgb(249, 244, 244);
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: black;
+	
+	width: 70%;
+	text-align: center;
+	padding:1rem 2rem;
+
+	position: relative;
+	left:20%;
+	right:20%;
+	
+	display: flex;
+
+}
+
+
+
+.card-container .dp {
+	width:10rem;
+	border: 3px solid white;
+	border-radius: 50%;
+   
+}
+
+.left{
+	margin-right:2rem;
+}
+.right{
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.usernamee {
+
+	color:gray;
+	font-size: 1.6em;
+	
+}
+
+.fullnamee {
+	
+	text-align: left;
+	font-size: 2em;
+
+
+}
+
+.description{
+	font-size: 1.5em;
+	text-align: left;
+	font-style: oblique;
+}
+.right form{
+	width: 100%;
+}
+.edit{
+	align-self:flex-end;
+	height:2.4rem;
+	width:10%;
+	font-size: larger;
+    padding:4px;
+	color: aliceblue;
+	background-color: blueviolet;
+	border:2px solid transparent;
+	border-radius: 8%;
+}
+.logoutbttn {
+	width:100%;
+    color: white;
+    background-color:#f30d19;
+	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	border: 1px solid #f30d19;
+	border-radius: 8%;
+	font-weight: 500;
+	padding: 10px 25px;
+
+	
+}
+
+/* //galery css */
+
+
+.content {
+	width: 70%;
+	height:100%;
+	text-align: center;
+	padding:1rem 2rem;
+
+	position: relative;
+	left:20%;
+	right:20%;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(249, 244, 244);
+  }
+  .item {
+	height:25%;
+	background-color: #f30d19;
+	cursor: pointer;
+	margin:0.6rem;
+	border: 1px solid rgb(255, 247, 247);
+	border-radius: 2px;
+
+  }
+   .item img {
+	width: 100%; /* Make the image fill the width of the container */
+    height: 100%; /* Make the image fill the height of the container */
+    object-fit: cover;		
+	border-radius: 4px;
+  }
+  
+  
+ 
+   .item:hover {
+   transform: scale(1.1);
+  
+  }
+
+  
